@@ -1,0 +1,32 @@
+body{
+    font-size: 14px;
+    font-family: 'Arial', 'Helvetica', 'sans-serif';
+}
+
+h1, h2{
+    color: #2b4165;
+}
+
+.wrapper{
+    width: 800px;
+    margin: 40px auto;
+}
+
+.wrapper .treeView{
+    margin-bottom: 20px;
+}
+
+.wrapper .treeView ul{
+    margin: 0;
+    padding: 10px 35px;
+    list-style: none;
+}
+
+.wrapper .treeView .node__label{
+    color: #FFF;
+    padding: 15px;
+    display: block;
+    cursor: pointer;
+    background: #2b4165;
+    border: 1px solid #CCC;
+}
